@@ -1,6 +1,3 @@
-getwd()
-setwd('C:/Coursera/Data/module-5/w2/RepData_PeerAssessment1')
-getwd()
 # Read data set
 if(!file.exists("../original_data_set")){dir.create("../original_data_set")}
 data_set_url <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip"
