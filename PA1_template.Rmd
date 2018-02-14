@@ -2,7 +2,9 @@
 title: "Differences in Activity patterns between weekdays and weekends"
 author: "HH"
 date: "February 13, 2018"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
